@@ -43,14 +43,15 @@ ________________________________________________________________________________
 
 
 # 📄 About the Project:
+<div>
 	Discover FoodExplorer, a web application that brings together the best of cooking and programming. This final course project, from the Rocketseat educational platform, simulates a digital menu for a restaurant. 
 	FoodExplorer is a great experience that creatively converges between two distinct areas such as gastronomy and technology.
-<br /><br />
+</div>
 
 # 📌 Access Food Explorer
-[Colocar o endereço deploy do frontend]
-https://
-<br /><br />
+<div>
+https:// [Colocar o endereço deploy do frontend]
+</div>
 
 # ✅ Functionalities:
 - [x] Administrator and user registration
@@ -74,8 +75,8 @@ https://
  <img align="center" alt="Gui-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
  <img align="center" alt="Gui-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
  <img align="center" alt="Gui-JAVASCRIPT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
- <img align="center" alt="Gui-NODE" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/Node.js-original.svg">
- <img align="center" alt="Gui-REACT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/react.js-original.svg">
+ <img align="center" alt="Gui-NODEJS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
+ <img align="center" alt="Gui-REACT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
  </div>
 
 # 🖼️ Images
@@ -104,11 +105,11 @@ https://
 
 ### Prerequisites:
 Install the following tools on your machine:
-** [Git](https://git-scm.com);
-** [Node.js](https://nodejs.org/en/).
+- [x] [Git](https://git-scm.com);
+- [x] [Node.js](https://nodejs.org/en/).
 
 It is important to have an editor to work with the code, such as:
-***[VSCode](https://code.visualstudio.com/).
+- [x] [VSCode](https://code.visualstudio.com/).
 
 <br />
 
@@ -168,8 +169,7 @@ The default port for the Front End is 5173 - access <http://localhost:5173>
 
 <a href="https://github.com/GuiCoralli?tab=repositories">
  <img style="border-radius: 50%;" src="https://github.com/GuiCoralli.png" width="100px;" alt="Imagem de GuiCoralli"/>
- <br />
- <sub><b>Guilherme Coralli</b></sub></a>
+ <br /> <sub><b> Guilherme Coralli</b></sub></a>
 
 
 💡 Created by Guilherme Coralli. 👋🏽 Get in touch!
