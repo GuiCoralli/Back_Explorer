@@ -18,7 +18,7 @@ colocar um gif (mostrando a página, o app como um todo)
 https://
 <br /><br />
 
-# ✅ Funcionalidades
+# ✅ Funcionalidades:
 - [x] Cadastro de administrador e usuários
 - [x] Cadastro, edição e exclusão de produtos (administrador)
 - [x] Consulta de produtos
@@ -28,7 +28,7 @@ https://
 - [x] Alteração do status dos pedidos (administrador)
 <br /><br />
 
-# 🔨 Outras características
+# 🔨 Características:
 - [x] Responsividade
 - [x] Modo claro/escuro
 <br /><br />
@@ -42,13 +42,6 @@ https://
  <img align="center" alt="Gui-NODE" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/Node.js-original.svg">
  <img align="center" alt="Gui-REACT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/react.js-original.svg">
  </div>
-
-<code> html </code>&nbsp;
-<code> css </code>&nbsp;
-<code> javascript </code>&nbsp;
-<code> node.js </code>&nbsp;
-<code> react.js </code>
-<br /><br />
 
 # 🖼️ Imagens
 
