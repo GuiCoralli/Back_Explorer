@@ -1,4 +1,4 @@
-Colocar uma imagem[logo]
+![image](https://github.com/GuiCoralli/frontend-FoodExplorer/assets/134714337/0eda23fd-6b56-45cc-ace7-09f94a26379a)
 
 colocar um gif (mostrando a página, o app como um todo)
 
