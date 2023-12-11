@@ -91,12 +91,12 @@ https:// [Colocar o endereço deploy do frontend]
 	<img src="https://i.ibb.co/wwWRB4J/screenshot-06.jpg" alt="" width="250px" />
 	<br /><br />
 	<img src="https://i.ibb.co/QQ7TTHD/screenshot-07.png" alt="" width="100px" />
-	<img src="https://i.ibb.co/dBTYSgT/screenshot-08.png" alt="" width="100px" />
-	<img src="https://i.ibb.co/mGNJxmZ/screenshot-09.png" alt="" width="100px" />
-	<img src="https://i.ibb.co/zbCxHzS/screenshot-10.png" alt="" width="100px" />
-	<img src="https://i.ibb.co/5LpFF97/screenshot-11.png" alt="" width="100px" />
 	<img src="https://i.ibb.co/LPZTxck/screenshot-12.png" alt="" width="100px" />
 	<img src="https://i.ibb.co/7QxfPpq/screenshot-13.png" alt="" width="100px" />
+	<img src="https://i.ibb.co/dBTYSgT/screenshot-08.png" alt="" width="100px" />
+	<img src="https://i.ibb.co/mGNJxmZ/screenshot-09.png" alt="" width="100px" />
+	<img src="https://i.ibb.co/5LpFF97/screenshot-11.png" alt="" width="100px" />
+	<img src="https://i.ibb.co/zbCxHzS/screenshot-10.png" alt="" width="100px" />>
 </div>
 
 <br /><br />
