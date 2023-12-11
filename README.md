@@ -82,11 +82,11 @@ https:// [Colocar o endereço deploy do frontend]
 # 🖼️ Images
 
 <div align="center">
-	<img src="https://i.ibb.co/pLDmkcs/screenshot-01.jpg" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="https://i.ibb.co/TTxYNyC/screenshot-02.jpg" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="https://i.ibb.co/Z103qny/screenshot-03.jpg" alt="" width="250px" />
+	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="" alt="" width="250px" />
 	<br /><br />
-	<img src="https://i.ibb.co/zhL861Q/screenshot-04.jpg" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
 	<img src="https://i.ibb.co/LNhcVXT/screenshot-05.jpg" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
 	<img src="https://i.ibb.co/wwWRB4J/screenshot-06.jpg" alt="" width="250px" />
 	<br /><br />
@@ -105,11 +105,11 @@ https:// [Colocar o endereço deploy do frontend]
 
 ### Prerequisites:
 Install the following tools on your machine:
-- [x] [Git](https://git-scm.com);
-- [x] [Node.js](https://nodejs.org/en/).
+- [x] [Git](https://git-scm.com)
+- [x] [Node.js](https://nodejs.org/en/)
 
 It is important to have an editor to work with the code, such as:
-- [x] [VSCode](https://code.visualstudio.com/).
+- [x] [VSCode](https://code.visualstudio.com/)
 
 <br />
 
