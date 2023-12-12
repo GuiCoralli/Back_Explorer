@@ -50,7 +50,7 @@ ________________________________________________________________________________
 
 # 📌 Access Food Explorer
 <div>
-https:// [Colocar o endereço deploy do frontend]
+👉🏼 https://corallifoodexplorer.netlify.app/
 </div>
 
 # ✅ Functionalities:
