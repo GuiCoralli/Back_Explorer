@@ -27,7 +27,7 @@ This is final course project, from the Rocketseat educational platform, simulate
   <a href="#-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-How to run the project">How to run the project</a><br>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Running the Back End (server)">Running the Back End (server)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Running the Front End">Running the Front End</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Importante">Importante</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 
@@ -44,13 +44,19 @@ ________________________________________________________________________________
 
 # 📄 About the Project:
 <div>
-	Discover FoodExplorer, a web application that brings together the best of cooking and programming. This final course project, from the Rocketseat educational platform, simulates a digital menu for a restaurant. 
+	Discover FoodExplorer, a web application that brings together the best of cooking and programming. 
+	This final course project, from the Rocketseat educational platform, simulates a digital menu for a restaurant. 
 	FoodExplorer is a great experience that creatively converges between two distinct areas such as gastronomy and technology.
 </div>
 
-# 📌 Access Food Explorer
+# 📌 Link Deploy Backend:  
 <div>
-👉🏼 https://corallifoodexplorer.netlify.app/
+👉🏼 https://backend-foodexplorer-api-6tji.onrender.com
+</div>
+
+#  API:
+<div>
+	Is importante you have app insomnia to converte the and run the test in your application.
 </div>
 
 # ✅ Functionalities:
@@ -106,13 +112,14 @@ ________________________________________________________________________________
 Install the following tools on your machine:
 - [x] [Git](https://git-scm.com)
 - [x] [Node.js](https://nodejs.org/en/)
+- [X] [Insomnia](https://insomnia.rest/download)
 
 It is important to have an editor to work with the code, such as:
 - [x] [VSCode](https://code.visualstudio.com/)
 
 <br />
 
-### 🎲 Running the Back End (server)
+### 🔄✅ Running the Back End (server)
 
 Clone the repository by writing the following command line in the Vscode terminal:
 ```
@@ -138,30 +145,12 @@ Server will start on port:3333 - access <http://localhost:3333>
 
 <br />
 
-## 🎲 Running the Front End
+## ⚠️ Importante: 
+<div>
+🎲 To run the Front End of this project you can find more information through this link:
 
-Clone the repository by writing the following command line in the Vscode terminal:
-```
-git clone https://github.com/GuiCoralli/frontend-FoodExplorer.git
-```
-
-Access the project folder in terminal/cmd:
-```
-cd frontend-food-explorer
-```
-
-Install dependencies:
-```
-npm install
-```
-
-Run the application in development mode:
-```
-npm run dev
-```
-
-The default port for the Front End is 5173 - access <http://localhost:5173>
-<br /><br />
+- [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
+</div>
 
 ### Author
 ---
