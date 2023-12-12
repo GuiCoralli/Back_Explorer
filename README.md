@@ -7,7 +7,7 @@
 
 
 <p align="center">
-	  <img alt="Project status" src="https://img.shields.io/badge/Status-Finalizado-green">
+	  <img alt="Project status" src="https://img.shields.io/badge/Status-Em construção-orange">
 	  <img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/GuiCoralli/backend-FoodExplorer">
 	  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/GuiCoralli/backend-FoodExplorer">
 	  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/GuiCoralli/backend-FoodExplorer?style=social">
