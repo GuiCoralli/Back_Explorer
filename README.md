@@ -159,6 +159,18 @@ Server will start on port:3333 - access <http://localhost:3333>
 <br />
 
 # 🔨 To build in Insomnia
+
+## Creating a Admin
+POST /admin
+
+```
+{
+	"name": "Example",
+	"email": "admin@gmail.com",
+	"password": "123456"
+}
+```
+
 ## Creating a new user
 
 POST /users
@@ -171,7 +183,7 @@ POST /users
 }
 ```
 
-### Creating a session
+## Creating a session
 
 POST /sessions
 
@@ -182,7 +194,7 @@ POST /sessions
 }
 ```
 
-### Creating a dish
+## Creating a dish
 
 POST /dishes
 
@@ -199,7 +211,7 @@ category_id: 2
 image: imageFile.png
 ```
 
-### Updating a dish
+## Updating a dish
 
 POST /dishes/:id
 
@@ -216,17 +228,17 @@ category_id: 2
 image: imageFile.png
 ```
 
-### Deleting a dish
+## Deleting a dish
 
 DELETE /dishes/:id
 
 **Obs:** This routes is only available for the admin user.
 
-### Showing all dishes
+## Showing all dishes
 
 GET /dishes
 
-### Showing an specific dish
+## Showing an specific dish
 
 GET /dishes/:id
 
