@@ -1,5 +1,24 @@
 ![image](https://github.com/GuiCoralli/frontend-FoodExplorer/assets/134714337/0eda23fd-6b56-45cc-ace7-09f94a26379a)
+# 🖼️ Images
 
+<div align="center">
+	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="" alt="" width="250px" />
+	<br /><br />
+	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="" alt="" width="250px" />
+	<br /><br />
+	<img src="" alt="" width="100px" />
+	<img src="" alt="" width="100px" />
+	<img src="" alt="" width="100px" />
+	<img src="" alt="" width="100px" />
+	<img src="" alt="" width="100px" />
+	<img src="" alt="" width="100px" />
+</div>
+
+<br /><br />
 
 
 <h1 align="center">Food Explorer</h1> 
@@ -42,24 +61,38 @@ This is final course project, from the Rocketseat educational platform, simulate
 _____________________________________________________________________________________
 
 
-# 📄 About the Project:
+# 📄 About the Project
 <div>
 	Discover FoodExplorer, a web application that brings together the best of cooking and programming. 
 	This final course project, from the Rocketseat educational platform, simulates a digital menu for a restaurant. 
 	FoodExplorer is a great experience that creatively converges between two distinct areas such as gastronomy and technology.
 </div>
 
-# 📌 Link Deploy Backend:  
+# 📌 Link Deploy Backend  
 <div>
 👉🏼 https://backend-foodexplorer-api-6tji.onrender.com
 </div>
 
-#  API:
+# 🖥️ API
 <div>
-	Is importante you have app insomnia to converte the and run the test in your application.
+	🎲 It is important that you have app insomnia to convert and run tests in your application.<br>
+	🎲 This API works together with the Front End application and you can find it here: <br> 
+	
+- [x]  https://github.com/GuiCoralli/frontend-FoodExplorer	
 </div>
 
-# ✅ Functionalities:
+
+
+<div>
+
+ ## Tools used for application development:
+- [x] [Git](https://git-scm.com)
+- [x] [Node.js](https://nodejs.org/en/)
+- [X] [Insomnia](https://insomnia.rest/download)
+
+</div>
+
+# ✅ Functionalities
 - [x] Administrator and user registration
 - [x] Registration, editing and deletion of products (administrator)
 - [x] Product consultation
@@ -69,12 +102,12 @@ ________________________________________________________________________________
 - [x] Changing the status of orders (administrator)
 <br /><br />
 
-# 🔨 Characteristics:
+# ⚙️ Characteristics
 - [x] Responsiveness
 - [x] Light/dark mode
 <br /><br />
 
-# 🚀 Technologies: 
+# 🚀 Technologies 
 ## Project developed with the following technologies:
 
   <div>
@@ -85,27 +118,6 @@ ________________________________________________________________________________
  <img align="center" alt="Gui-REACT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
  </div>
 
-# 🖼️ Images
-
-<div align="center">
-	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="" alt="" width="250px" />
-	<br /><br />
-	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="" alt="" width="250px" />
-	<br /><br />
-	<img src="" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-</div>
-
-<br /><br />
-
 # 💻 How to run the project
 
 ### Prerequisites:
@@ -113,6 +125,7 @@ Install the following tools on your machine:
 - [x] [Git](https://git-scm.com)
 - [x] [Node.js](https://nodejs.org/en/)
 - [X] [Insomnia](https://insomnia.rest/download)
+- [X] [Beekeper](https://www.beekeeperstudio.io/get)
 
 It is important to have an editor to work with the code, such as:
 - [x] [VSCode](https://code.visualstudio.com/)
@@ -145,7 +158,81 @@ Server will start on port:3333 - access <http://localhost:3333>
 
 <br />
 
-## ⚠️ Importante: 
+# 🔨 To build in Insomnia
+## Creating a new user
+
+POST /users
+
+```
+{
+	"name": "Example",
+	"email": "example@gmail.com",
+	"password": "123456"
+}
+```
+
+### Creating a session
+
+POST /sessions
+
+```
+{
+	"email": "example@gmail.com",
+	"password": "123456"
+}
+```
+
+### Creating a dish
+
+POST /dishes
+
+**Obs:** It's necessary to send this payload using multipart on Insomnia.
+
+**Obs:** This routes is only available for the admin user.
+
+```
+name: plate name
+description: example of a description of a plate
+price: 19.99
+ingredients: powder, water
+category_id: 2
+image: imageFile.png
+```
+
+### Updating a dish
+
+POST /dishes/:id
+
+**Obs:** It's necessary to send this payload using multipart on Insomnia.
+
+**Obs:** This routes is only available for the admin user.
+
+```
+name: plate name
+description: example of a description of a plate
+price: 19.99
+ingredients: powder, water
+category_id: 2
+image: imageFile.png
+```
+
+### Deleting a dish
+
+DELETE /dishes/:id
+
+**Obs:** This routes is only available for the admin user.
+
+### Showing all dishes
+
+GET /dishes
+
+### Showing an specific dish
+
+GET /dishes/:id
+
+
+
+## ⚠️ Important 
 <div>
 🎲 To run the Front End of this project you can find more information through this link:
 
