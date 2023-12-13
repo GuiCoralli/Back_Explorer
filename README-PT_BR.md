@@ -1,5 +1,25 @@
 ![image](https://github.com/GuiCoralli/frontend-FoodExplorer/assets/134714337/0eda23fd-6b56-45cc-ace7-09f94a26379a)
+# 🖼️ Imagens
 
+<div align="center">
+	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="" alt="" width="250px" />
+	<br /><br />
+	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="h" alt="" width="250px" />
+	<br /><br />
+	<img src="h" alt="" width="100px" />
+	<img src="" alt="" width="100px" />
+	<img src="" alt="" width="100px" />
+	<img src="h" alt="" width="100px" />
+	<img src="" alt="" width="100px" />
+	<img src="" alt="" width="100px" />
+	<img src="" alt="" width="100px" />
+</div>
+
+<br /><br />
 
 
 <h1 align="center">Food Explorer</h1> 
@@ -49,9 +69,17 @@ ________________________________________________________________________________
 	O FoodExplorer é uma ótima experiência que converge de maneira criativa entre duas áreas distintas como a gastronomia e tecnologia.
 </div>
 
-# 📌 Acesse o Food Explorer
+# 📌 Link Deploy Backend  
 <div>
-	👉🏼 https://corallifoodexplorer.netlify.app/
+👉🏼 https://backend-foodexplorer-api-6tji.onrender.com
+</div>
+
+# 🖥️ API
+<div>
+	🎲 É importante que você tenha o aplicativo insomnia converter e executar testes em sua aplicação.<br>
+	🎲 Essa API funciona em conjunto com a aplicação Front End e você pode encontrá-la aqui:
+
+- [x]  https://github.com/GuiCoralli/frontend-FoodExplorer	
 </div>
 
 # ✅ Funcionalidades:
@@ -79,27 +107,6 @@ ________________________________________________________________________________
  	<img align="center" alt="Gui-REACT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
 </div>
 
-# 🖼️ Imagens
-
-<div align="center">
-	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="" alt="" width="250px" />
-	<br /><br />
-	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="h" alt="" width="250px" />
-	<br /><br />
-	<img src="h" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-	<img src="h" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-</div>
-
-<br /><br />
 
 # 💻 Como rodar o projeto
 
@@ -107,6 +114,7 @@ ________________________________________________________________________________
 Instalar em sua máquina as seguintes ferramentas:
 - [x] [Git](https://git-scm.com)
 - [x] [Node.js](https://nodejs.org/en/)
+- [X] [Beekeper](https://www.beekeeperstudio.io/get)
 
 Ter um editor para trabalhar com o código, como por exemplo:
 - [x] [VSCode](https://code.visualstudio.com/)
@@ -114,7 +122,7 @@ Ter um editor para trabalhar com o código, como por exemplo:
 <br />
 
 
-### 🎲 Rodando o Back End (servidor)
+### 🔄✅ 🎲 Rodando o Back End (servidor)
 
 Clone o repositório:
 ```
@@ -140,31 +148,87 @@ O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 
 <br />
 
+## Criando um novo usuário
 
-## 🎲 Rodando o Front End
+POST /users
 
-Clone o repositório:
 ```
-git clone https://github.com/GuiCoralli/frontend-FoodExplorer.git
-```
-
-Acesse a pasta do projeto no terminal/cmd:
-```
-cd frontend-food-explorer
-```
-
-Instale as dependências:
-```
-npm install
+{
+	"name": "Example",
+	"email": "example@gmail.com",
+	"password": "123456"
+}
 ```
 
-Execute a aplicação em modo de desenvolvimento:
+## Criando sessões 
+
+POST /sessions
+
 ```
-npm run dev
+{
+	"email": "example@gmail.com",
+	"password": "123456"
+}
 ```
 
-A porta padrão para o Front End é 5173 - acesse <http://localhost:5173>
-<br /><br />
+## Criando um prato
+
+POST /dishes
+
+**Obs:** É necessário enviar esse payload (dados) usando o multipart no Insomnia.
+
+**Obs:** Esta rota está disponível apenas para o usuário administrador.
+
+```
+name: plate name
+description: example of a description of a plate
+price: 19.99
+ingredients: powder, water
+category_id: 2
+image: imageFile.png
+```
+
+## Atualizando um prato
+
+POST /dishes/:id
+
+**Obs:** É necessário enviar esse payload (dados) usando o multipart no Insomnia.
+
+**Obs:** Esta rota está disponível apenas para o usuário administrador.
+
+```
+name: plate name
+description: example of a description of a plate
+price: 19.99
+ingredients: powder, water
+category_id: 2
+image: imageFile.png
+```
+
+## Excluindo um prato
+
+DELETE /dishes/:id
+
+**Obs:** Esta rota está disponível apenas para o usuário administrador.
+
+## Mostrando todos os pratos
+
+GET /dishes
+
+## Mostrando um prato específico
+
+GET /dishes/:id
+
+
+
+## ⚠️ Importante: 
+<div>
+🎲 Para executar o Front End deste projeto você pode encontrar mais informações através deste link:
+
+- [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
+</div>
+
+
 
 
 ### Autor
