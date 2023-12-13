@@ -109,7 +109,7 @@ ________________________________________________________________________________
 <br /><br />
 
 # 🚀 Technologies 
-## Project developed with the following technologies:
+## Project developed with the following technologies
 
   <div>
  <img align="center" alt="Gui-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -120,7 +120,7 @@ ________________________________________________________________________________
  </div>
 
 # 💻 Prerequisites
-Install the following tools on your machine:
+Install the following tools on your machine
 - [x] [Git](https://git-scm.com)
 - [x] [Node.js](https://nodejs.org/en/)
 - [X] [Insomnia](https://insomnia.rest/download)
