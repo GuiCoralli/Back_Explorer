@@ -47,7 +47,7 @@ Este projeto de conclusão de curso, da plataforma educacional Rocketseat, simul
   <a href="#Funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Características">Características</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Como rodar o projeto">Como rodar o projeto</a><br>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Pré-requisitos">Pré-requisitos</a><br>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Rodando o Back End (servidor)">Rodando o Back End (servidor)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Para montar no Insomnia">Para montar no Insomnia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
@@ -93,13 +93,13 @@ ________________________________________________________________________________
 - [x] Alteração do status dos pedidos (administrador)
 <br /><br />
 
-# 🔨 Características
+# ⚙️ Características
 - [x] Responsividade
 - [x] Modo claro/escuro
 <br /><br />
 
 # 🚀 Tecnologias
-##   Projeto desenvolvido com as seguintes tecnologias:
+##   Projeto desenvolvido com as seguintes tecnologias
 <div>
 	<img align="center" alt="Gui-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
  	<img align="center" alt="Gui-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
@@ -109,15 +109,13 @@ ________________________________________________________________________________
 </div>
 
 
-# 💻 Como rodar o projeto
-
-### Pré-requisitos:
-Instalar em sua máquina as seguintes ferramentas:
+# 💻  Pré-requisitos
+Instalar em sua máquina as seguintes ferramentas
 - [x] [Git](https://git-scm.com)
 - [x] [Node.js](https://nodejs.org/en/)
 - [X] [Beekeper](https://www.beekeeperstudio.io/get)
 
-Ter um editor para trabalhar com o código, como por exemplo:
+Ter um editor para trabalhar com o código, como por exemplo
 - [x] [VSCode](https://code.visualstudio.com/)
 
 <br />
@@ -149,7 +147,7 @@ O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 
 <br />
 
-#🔨 Para montar no Insomnia
+# 🔨 Para montar no Insomnia
 
 ## Criando um novo usuário
 
