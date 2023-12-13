@@ -42,7 +42,7 @@ Este projeto de conclusão de curso, da plataforma educacional Rocketseat, simul
 
 <p align="center">
   <a href="#-Sobre o Projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Acesse o Food Explorer">Acesse o Food Explorer</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Link Deploy Backend ">Link Deploy Backend </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Características">Características</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -63,7 +63,7 @@ Este projeto de conclusão de curso, da plataforma educacional Rocketseat, simul
 _____________________________________________________________________________________
 
 
-# 📄 Sobre o Projeto:
+# 📄 Sobre o Projeto
 <div>
 	Descubra o FoodExplorer, uma aplicação web que reune o melhor da culinária e programação. Este projeto final de curso, da plataforma educacional da Rocketseat, simula um cardápio digital para um restaurante. 
 	O FoodExplorer é uma ótima experiência que converge de maneira criativa entre duas áreas distintas como a gastronomia e tecnologia.
@@ -82,7 +82,7 @@ ________________________________________________________________________________
 - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer	
 </div>
 
-# ✅ Funcionalidades:
+# ✅ Funcionalidades
 - [x] Cadastro de administrador e usuários
 - [x] Cadastro, edição e exclusão de produtos (administrador)
 - [x] Consulta de produtos
@@ -92,7 +92,7 @@ ________________________________________________________________________________
 - [x] Alteração do status dos pedidos (administrador)
 <br /><br />
 
-# 🔨 Características:
+# 🔨 Características
 - [x] Responsividade
 - [x] Modo claro/escuro
 <br /><br />
@@ -147,6 +147,8 @@ npm run dev
 O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 
 <br />
+
+#🔨 Para montar no Insomnia
 
 ## Criando um novo usuário
 
