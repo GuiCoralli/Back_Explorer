@@ -1,27 +1,3 @@
-![image](https://github.com/GuiCoralli/backend-FoodExplorer/assets/134714337/1d94db15-8435-4a89-995b-b1e0e482e19b)
-
-# 🖼️ Images
-
-<div align="center">
-	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="" alt="" width="250px" />
-	<br /><br />
-	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="" alt="" width="250px" />
-	<br /><br />
-	<img src="" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-</div>
-
-<br /><br />
-
-
 <h1 align="center">Food Explorer</h1> 
 
 
@@ -59,6 +35,12 @@ This is final course project, from the Rocketseat educational platform, simulate
   ·
   <a href="https://github.com/GuiCoralli/backend-FoodExplorer/blob/main/README.md"> English
   </a>
+
+##
+
+  ![image](https://github.com/GuiCoralli/backend-FoodExplorer/assets/134714337/1d94db15-8435-4a89-995b-b1e0e482e19b)
+
+
 
 _____________________________________________________________________________________
 
