@@ -12,7 +12,9 @@
 
 
 <p align="center">
-This is final course project, from the Rocketseat educational platform, simulates a digital menu for a restaurant, made by GuiCoralli to fix the learning of WEB applications technologies.
+	Discover FoodExplorer, a web application that brings together the best of cooking and programming. <br>
+	This final course project, from the  <a href="https://app.rocketseat.com.br">Rocketseat</a> educational platform, simulates a digital menu for a restaurant. <br>
+	FoodExplorer is a great experience that creatively converges between two distinct areas such as gastronomy and technology.
 </p>
 
 <p align="center">
@@ -38,7 +40,6 @@ This is final course project, from the Rocketseat educational platform, simulate
 
 ##
 
-  ![image](https://github.com/GuiCoralli/backend-FoodExplorer/assets/134714337/1d94db15-8435-4a89-995b-b1e0e482e19b)
 
 
 
@@ -47,9 +48,7 @@ ________________________________________________________________________________
 
 # 📄 About the Project
 <div>
-	Discover FoodExplorer, a web application that brings together the best of cooking and programming. <br>
-	This final course project, from the  <a href="https://app.rocketseat.com.br">Rocketseat</a> educational platform, simulates a digital menu for a restaurant. <br>
-	FoodExplorer is a great experience that creatively converges between two distinct areas such as gastronomy and technology.
+
 </div>
 
 # 📌 Link Deploy Backend  
@@ -84,7 +83,7 @@ ________________________________________________________________________________
 - [x] Payment simulation (user)
 - [x] Order consultation
 - [x] Changing the status of orders (administrator)
-<br /><br />
+<br /><br/>
 
 # ⚙️ Characteristics
 - [x] Responsiveness
@@ -93,15 +92,15 @@ ________________________________________________________________________________
 <br /><br />
 
 # 🚀 Technologies 
-## Project developed with the following technologies
-
-  <div>
+ Project developed with the following technologies
+<div>
  <img align="center" alt="Gui-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
  <img align="center" alt="Gui-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
  <img align="center" alt="Gui-JAVASCRIPT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
  <img align="center" alt="Gui-NODEJS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
  <img align="center" alt="Gui-REACT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
  </div>
+<br /><br/>
 
 # 💻 Prerequisites
 Install the following tools on your machine
@@ -109,11 +108,12 @@ Install the following tools on your machine
 - [x] [Node.js](https://nodejs.org/en/)
 - [X] [Insomnia](https://insomnia.rest/download)
 - [X] [Beekeper](https://www.beekeeperstudio.io/get)
+<br/><br/>
 
 It is important to have an editor to work with the code, such as:
 - [x] [VSCode](https://code.visualstudio.com/)
 
-<br />
+<br/>
 
 ### 🔄✅ Running the Back End (server)
 
@@ -224,7 +224,7 @@ GET /dishes
 ## Showing an specific dish
 
 GET /dishes/:id
-
+<br /><br/>
 
 
 ## ⚠️ Important 
@@ -233,13 +233,14 @@ GET /dishes/:id
 
 - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
 </div>
+<br /><br/>
 
 ### Author
 ---
 
 <a href="https://github.com/GuiCoralli?tab=repositories">
  <img style="border-radius: 50%;" src="https://github.com/GuiCoralli.png" width="100px;" alt="Imagem de GuiCoralli"/>
- <br /> <sub><b> Guilherme Coralli</b></sub></a>
+ <br/> <sub><b> Guilherme Coralli</b></sub></a>
 
 
 💡 Created by Guilherme Coralli. 
