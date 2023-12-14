@@ -74,6 +74,7 @@ ________________________________________________________________________________
 # ⚙️ Características
 - [x] Responsividade
 - [x] Modo claro/escuro
+- [x] Modo administrativo/usuário
 <br /><br />
 
 # 🚀 Tecnologias
