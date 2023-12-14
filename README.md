@@ -11,12 +11,14 @@
 
 
 
-<p align="center">
-	Discover FoodExplorer, a web application that brings together the best of cooking and programming. <br>
-	This final course project, from the  <a href="https://app.rocketseat.com.br">Rocketseat</a> educational platform, simulates a digital menu for a restaurant. <br>
+## About
+<p align="justify">
+	Discover FoodExplorer, a web application that brings together the best of cooking and programming.
+	This final course project, from the  <a href="https://app.rocketseat.com.br">Rocketseat</a> educational platform, simulates a digital menu for a restaurant.
 	FoodExplorer is a great experience that creatively converges between two distinct areas such as gastronomy and technology.
 </p>
 
+## Menu
 <p align="center">
   <a href="#-About the Project">About the Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Link Deploy Backend">Link Deploy Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -38,7 +40,7 @@
   <a href="https://github.com/GuiCoralli/backend-FoodExplorer/blob/main/README.md"> English
   </a>
 
-##
+
 
 
 
@@ -46,17 +48,7 @@
 _____________________________________________________________________________________
 
 
-# 📄 About the Project
-<div>
-
-</div>
-
-# 📌 Link Deploy Backend  
-<div>
-👉🏼 https://backend-foodexplorer-api-6tji.onrender.com
-</div>
-
-# 🖥️ API
+# 🖥️ About API
 <div>
 	🎲 It is important that you have app insomnia to convert and run tests in your application.<br>
 	🎲 This API works together with the Front End application and you can find it here: <br> 
@@ -64,18 +56,24 @@ ________________________________________________________________________________
 - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer	
 </div>
 
-
-
+# 📌 Link Deploy Backend  
 <div>
+👉🏼 https://backend-foodexplorer-api-6tji.onrender.com
+</div>
 
- ## Tools used for application development:
+
+# 🔧 Development Tools
+<div>
+	
 - [x] [Git](https://git-scm.com)
 - [x] [Node.js](https://nodejs.org/en/)
-- [X] [Insomnia](https://insomnia.rest/download)
+- [x] [Insomnia](https://insomnia.rest/download)
 
 </div>
 
 # ✅ Functionalities
+<div>
+	
 - [x] Administrator and user registration
 - [x] Registration, editing and deletion of products (administrator)
 - [x] Product consultation
@@ -83,39 +81,50 @@ ________________________________________________________________________________
 - [x] Payment simulation (user)
 - [x] Order consultation
 - [x] Changing the status of orders (administrator)
-<br /><br/>
+
+</div>
 
 # ⚙️ Characteristics
+<div>
+	
 - [x] Responsiveness
 - [x] Light/dark mode
 - [x] Admin/user mode
-<br /><br />
+
+</div>
 
 # 🚀 Technologies 
  Project developed with the following technologies
 <div>
- <img align="center" alt="Gui-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
- <img align="center" alt="Gui-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
- <img align="center" alt="Gui-JAVASCRIPT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
- <img align="center" alt="Gui-NODEJS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
- <img align="center" alt="Gui-REACT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+	
+- [x] [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) <img align="center" alt="Gui-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+- [x] [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) <img align="center" alt="Gui-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+- [x] [Javascript](https://developer.mozilla.org/en-US/docs/Web/Javascript) <img align="center" alt="Gui-JAVASCRIPT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
+- [x] [Node.Js](https://nodejs.org/api/documentation.html) <img align="center" alt="Gui-NODEJS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
+- [x] [REACT](https://developer.mozilla.org/pt-BR/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started) <img align="center" alt="Gui-REACT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+ 
  </div>
-<br /><br/>
 
 # 💻 Prerequisites
+<div>
 Install the following tools on your machine
+	
 - [x] [Git](https://git-scm.com)
 - [x] [Node.js](https://nodejs.org/en/)
 - [X] [Insomnia](https://insomnia.rest/download)
 - [X] [Beekeper](https://www.beekeeperstudio.io/get)
-<br/><br/>
+
+</div>
+
 
 It is important to have an editor to work with the code, such as:
+<div>
+	
 - [x] [VSCode](https://code.visualstudio.com/)
 
-<br/>
+</div>
 
-### 🔄✅ Running the Back End (server)
+# 🔄✅ Running the Back End (server)
 
 Clone the repository by writing the following command line in the Vscode terminal:
 ```
@@ -139,11 +148,10 @@ npm run dev
 
 Server will start on port:3333 - access <http://localhost:3333>
 
-<br />
 
 # 🔨 To build in Insomnia
 
-## Creating a Admin
+## Creating a admin
 POST /admin
 
 ```
@@ -224,16 +232,13 @@ GET /dishes
 ## Showing an specific dish
 
 GET /dishes/:id
-<br /><br/>
 
-
-## ⚠️ Important 
+# ⚠️ Important 
 <div>
 🎲 To run the Front End of this project you can find more information through this link:
 
 - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
 </div>
-<br /><br/>
 
 ### Author
 ---
@@ -244,6 +249,5 @@ GET /dishes/:id
 
 
 💡 Created by Guilherme Coralli. 
-
 👋🏽 Get in touch!
 [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/guicoralli/)](https://www.linkedin.com/in/guicoralli/) 
