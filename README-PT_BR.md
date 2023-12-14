@@ -1,31 +1,4 @@
-![image](https://github.com/GuiCoralli/backend-FoodExplorer/assets/134714337/20b0bca1-8cbe-43d5-974f-e7e30ac1e3d6)
-
-# 🖼️ Imagens
-
-<div align="center">
-	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="" alt="" width="250px" />
-	<br /><br />
-	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="" alt="" width="250px" />&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="h" alt="" width="250px" />
-	<br /><br />
-	<img src="h" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-	<img src="h" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-	<img src="" alt="" width="100px" />
-</div>
-
-<br /><br />
-
-
 <h1 align="center">Food Explorer</h1> 
-
-
 
 <p align="center">
 	  <img alt="Project status" src="https://img.shields.io/badge/Status-Finalizado-green">
@@ -40,10 +13,9 @@
 Este projeto de conclusão de curso, da plataforma educacional Rocketseat, simula um cardápio digital para um restaurante, feito por GuiCoralli para consolidar o aprendizado de tecnologias de aplicações WEB.
 </p>
 
-
 <p align="center">
   <a href="#-Sobre o Projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Link Deploy Backend ">Link Deploy Backend </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Link Deploy Backend">Link Deploy Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#API">API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Características">Características</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -51,6 +23,7 @@ Este projeto de conclusão de curso, da plataforma educacional Rocketseat, simul
   <a href="#-Pré-requisitos">Pré-requisitos</a><br>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Rodando o Back End (servidor)">Rodando o Back End (servidor)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Para montar no Insomnia">Para montar no Insomnia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Importante">Importante</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 
@@ -62,12 +35,16 @@ Este projeto de conclusão de curso, da plataforma educacional Rocketseat, simul
   <a href="https://github.com/GuiCoralli/frontend-FoodExplorer/blob/main/README.md"> English
   </a>
 
+
+
+  ![image](https://github.com/GuiCoralli/backend-FoodExplorer/assets/134714337/20b0bca1-8cbe-43d5-974f-e7e30ac1e3d6)
+
 _____________________________________________________________________________________
 
 
 # 📄 Sobre o Projeto
 <div>
-	Descubra o FoodExplorer, uma aplicação web que reune o melhor da culinária e programação. Este projeto final de curso, da plataforma educacional da Rocketseat, simula um cardápio digital para um restaurante. 
+	Descubra o FoodExplorer, uma aplicação web que reune o melhor da culinária e programação. <br> Este projeto final de curso, da plataforma educacional da <a href="https://app.rocketseat.com.br">Rocketseat</a>, simula um cardápio digital para um restaurante.<br> 
 	O FoodExplorer é uma ótima experiência que converge de maneira criativa entre duas áreas distintas como a gastronomia e tecnologia.
 </div>
 
@@ -111,12 +88,12 @@ ________________________________________________________________________________
 
 
 # 💻  Pré-requisitos
-Instalar em sua máquina as seguintes ferramentas
+Instalar em sua máquina as seguintes ferramentas:
 - [x] [Git](https://git-scm.com)
 - [x] [Node.js](https://nodejs.org/en/)
 - [X] [Beekeper](https://www.beekeeperstudio.io/get)
 
-Ter um editor para trabalhar com o código, como por exemplo
+É importante ter um editor para trabalhar com o código, como por exemplo:
 - [x] [VSCode](https://code.visualstudio.com/)
 
 <br />
@@ -223,7 +200,7 @@ GET /dishes/:id
 
 
 
-## ⚠️ Importante: 
+## ⚠️ Importante
 <div>
 🎲 Para executar o Front End deste projeto você pode encontrar mais informações através deste link:
 
