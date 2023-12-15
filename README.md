@@ -16,7 +16,7 @@
 	FoodExplorer is a great experience that creatively converges between two distinct areas such as gastronomy and technology.
 </p>
 
-## Navegação
+## Navigation
 <p align="center">
   <a href="#-About the Project">About the Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Link Deploy Backend">Link Deploy Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
