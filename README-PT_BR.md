@@ -1,45 +1,46 @@
-<h1 align="center">Food Explorer</h1> 
-
-<p align="center">
-	  <img alt="Project status" src="https://img.shields.io/badge/Status-Finalizado-green">
-	  <img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/GuiCoralli/backend-FoodExplorer">
-	  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/GuiCoralli/backend-FoodExplorer">
-	  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/GuiCoralli/backend-FoodExplorer?style=social">
-</p>
+<h1 align="center">Food Explorer</h1>
 
 
 
 <p align="center">
-Este projeto de conclusão de curso, da plataforma educacional Rocketseat, simula um cardápio digital para um restaurante, feito por GuiCoralli para consolidar o aprendizado de tecnologias de aplicações WEB.
+<img alt="Status do projeto" src="https://img.shields.io/badge/Status-Under construction-orange">
+<img alt="Último commit do GitHub (por committer)" src="https://img.shields.io/github/last-commit/GuiCoralli/backend-FoodExplorer">
+<img alt="Tamanho do repositório GitHub" src="https://img.shields.io/github/repo-size/GuiCoralli/backend-FoodExplorer">
+<img alt="estrelas do GitHub Repo" src="https://img.shields.io/github/stars/GuiCoralli/backend-FoodExplorer?style=social">
 </p>
+
+
+<p align="justify">
+Conheça o FoodExplorer, um aplicativo web que reúne o melhor da culinária e da programação.
+Este projeto de conclusão de curso, da plataforma educacional <a href="https://app.rocketseat.com.br">Rocketseat</a>, simula um cardápio digital para um restaurante.
+FoodExplorer é uma grande experiência que converge criativamente entre duas áreas distintas como a gastronomia e a tecnologia.
+</p>
+
+## Navegação
 
 <p align="center">
   <a href="#-Sobre o Projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Link Deploy Backend">Link Deploy Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#API">API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-API">API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Functionalities">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Características">Características</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Pré-requisitos">Pré-requisitos</a><br>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Rodando o Back End (servidor)">Rodando o Back End (servidor)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Para montar no Insomnia">Para montar no Insomnia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Importante">Importante</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Technologies">Tecnologias</a><br>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Prerequisites">Pré-requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Executando o back-end (servidor)">Executando o back-end (servidor)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Important">Importante</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 
- ## Tradução 
- <p align="center">
+ ## Tradução
+ 
+<p align="center">
    ·
-  <a href="https://github.com/GuiCoralli/frontend-FoodExplorer/blob/main/README-PT_BR.md"> Português
+  <a href="https://github.com/GuiCoralli/backend-FoodExplorer/blob/main/README-PT_BR.md"> Português
   ·
-  <a href="https://github.com/GuiCoralli/frontend-FoodExplorer/blob/main/README.md"> English
+  <a href="https://github.com/GuiCoralli/backend-FoodExplorer/blob/main/README.md"> Inglês
   </a>
-
-
-
-  ![image](https://github.com/GuiCoralli/backend-FoodExplorer/assets/134714337/20b0bca1-8cbe-43d5-974f-e7e30ac1e3d6)
-
-_____________________________________________________________________________________
+  </p>
+________________________________________________________________________________________________________________________________________________________
 
 
 # 📄 Sobre o Projeto
