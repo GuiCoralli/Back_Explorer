@@ -25,7 +25,7 @@ FoodExplorer é uma grande experiência que converge criativamente entre duas á
 	<a href="#-Características">Características</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<br>
 	<a href="#-Pré-requisitos">Pré-requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-	<a href="#-Rodando-o-Back-End-(servidor)">Rodando o Back End (servidor)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Rodando-o-Backend-(servidor)">Rodando o Backend (servidor)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#-Para-montar-no-Insomnia">Para montar no Insomnia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
 	<a href="#-Importante">Importante</a>&nbsp;&nbsp;&nbsp; 
 </p>
@@ -123,7 +123,7 @@ Instalar em sua máquina as seguintes ferramentas:
 
 
 
-### 🔄✅ 🎲 Rodando o Back End (servidor)
+### 🔄✅ 🎲 Rodando o Backend (servidor)
 
 Clone o repositório:
 ```
