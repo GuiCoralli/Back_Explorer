@@ -24,8 +24,9 @@
 	<a href="#-Development-Tools">Development Tools</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#-Functionalities">Functionalities</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#-Characteristics">Characteristics</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#-Prerequisites">Prerequisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <br>
-	<a href="#-Running-the-Back-End">Running the Back End</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Running-the-Backend">Running the Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#-To-Build-in-Insomnia">To Build in Insomnia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
 	<a href="#-Important">Important</a>&nbsp;&nbsp;&nbsp; 
 </p>
@@ -129,7 +130,7 @@ It is important to have an editor to work with the code, such as:
 
 </div>
 
-# 🔄✅ Running the Back End (server)
+# 🔄✅ Running the Backend (server)
 
 Clone the repository by writing the following command line in the Vscode terminal:
 ```
