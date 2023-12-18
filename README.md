@@ -54,10 +54,10 @@ ________________________________________________________________________________
 # 🖥️ About API
 <div>
 	
-   🎲 It is important that you have app insomnia to convert and run tests in your application.<br>
-   🎲 This API works together with the Front End application and you can find it here: <br> 
+   - [x] It is important that you have app insomnia to convert and run tests in your application.<br>
+   - [x] This API works together with the Front End application and you can find it here: <br> 
 	
-- [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
+   - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
       
 </div>
 
@@ -239,11 +239,13 @@ GET /dishes
 GET /dishes/:id
 
 # ⚠️ Important 
-
+<div>
 	
-🎲 To run the Front End of this project you can find more information through this link:
+- [x] To run the Front End of this project you can find more information through this link:
 
 - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
+	
+</div>
 
 
 
