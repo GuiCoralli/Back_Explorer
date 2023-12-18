@@ -155,7 +155,7 @@ POST /admin
 ```
 {
 	"name": "Example",
-	"email": "admin@gmail.com",
+	"email": "admin@email.com",
 	"password": "123456"
 }
 ```
@@ -167,7 +167,7 @@ POST /users
 ```
 {
 	"name": "Example",
-	"email": "example@gmail.com",
+	"email": "example@email.com",
 	"password": "123456"
 }
 ```
@@ -178,7 +178,7 @@ POST /sessions
 
 ```
 {
-	"email": "example@gmail.com",
+	"email": "example@email.com",
 	"password": "123456"
 }
 ```
