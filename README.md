@@ -53,10 +53,12 @@ ________________________________________________________________________________
 
 # 🖥️ About API
 <div>
-	🎲 It is important that you have app insomnia to convert and run tests in your application.<br>
-	🎲 This API works together with the Front End application and you can find it here: <br> 
+	
+   🎲 It is important that you have app insomnia to convert and run tests in your application.<br>
+   🎲 This API works together with the Front End application and you can find it here: <br> 
 	
 - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
+      
 </div>
 
 # 📌 Link Deploy Backend  
@@ -71,6 +73,7 @@ ________________________________________________________________________________
 - [x] [Git](https://git-scm.com)
 - [x] [Node.js](https://nodejs.org/en/)
 - [x] [Insomnia](https://insomnia.rest/download)
+
 </div>
 
 # ✅ Functionalities
@@ -236,13 +239,13 @@ GET /dishes
 GET /dishes/:id
 
 # ⚠️ Important 
-<div>
+
 	
 🎲 To run the Front End of this project you can find more information through this link:
 
 - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
 
-</div>
+
 
 ### Author
 ---
