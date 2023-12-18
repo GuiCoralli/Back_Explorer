@@ -16,19 +16,19 @@ Este projeto de conclusão de curso, da plataforma educacional <a href="https://
 FoodExplorer é uma grande experiência que converge criativamente entre duas áreas distintas como a gastronomia e a tecnologia.
 </p>
 
-## Navegação
-
+## Navigation
 <p align="center">
-  <a href="#-Sobre o Projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Link Deploy Backend">Link Deploy Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-API">API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Functionalities">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Características">Características</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Technologies">Tecnologias</a><br>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Prerequisites">Pré-requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Executando o back-end (servidor)">Executando o back-end (servidor)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Important">Importante</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Sobre-a-API">Sobre a API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Link-Deploy-Backend">Link Deploy Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Ferramentas-de-Desenvolvimento">Ferramentas de Desenvolvimento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Características">Características</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Pré-requisitos">Pré-requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <br>
+	<a href="#-Rodando o Back End (servidor)">Rodando o Back End (servidor)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Para montar no Insomnia">Para montar no Insomnia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+	<a href="#-Importante">Importante</a>&nbsp;&nbsp;&nbsp; 
 </p>
+
 
 
  ## Tradução
@@ -43,10 +43,15 @@ FoodExplorer é uma grande experiência que converge criativamente entre duas á
 ________________________________________________________________________________________________________________________________________________________
 
 
-# 📄 Sobre o Projeto
-<div>
-	Descubra o FoodExplorer, uma aplicação web que reune o melhor da culinária e programação. <br> Este projeto final de curso, da plataforma educacional da <a href="https://app.rocketseat.com.br">Rocketseat</a>, simula um cardápio digital para um restaurante.<br> 
-	O FoodExplorer é uma ótima experiência que converge de maneira criativa entre duas áreas distintas como a gastronomia e tecnologia.
+
+# 🖥️ Sobre a API
+<div>	
+	
+ - [x] É importante que você tenha o aplicativo insomnia converter e executar testes em sua aplicação.<br>
+ - [x] Essa API funciona em conjunto com a aplicação Front End e você pode encontrá-la aqui:
+
+ - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer	
+
 </div>
 
 # 📌 Link Deploy Backend  
@@ -54,13 +59,6 @@ ________________________________________________________________________________
 👉🏼 https://backend-foodexplorer-api-6tji.onrender.com
 </div>
 
-# 🖥️ API
-<div>
-	🎲 É importante que você tenha o aplicativo insomnia converter e executar testes em sua aplicação.<br>
-	🎲 Essa API funciona em conjunto com a aplicação Front End e você pode encontrá-la aqui:
-
-- [x]  https://github.com/GuiCoralli/frontend-FoodExplorer	
-</div>
 
 # ✅ Funcionalidades
 - [x] Cadastro de administrador e usuários
@@ -204,7 +202,8 @@ GET /dishes/:id
 
 ## ⚠️ Importante
 <div>
-🎲 Para executar o Front End deste projeto você pode encontrar mais informações através deste link:
+	
+- [x] Para executar o Front End deste projeto você pode encontrar mais informações através deste link:
 
 - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
 </div>
