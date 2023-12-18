@@ -19,14 +19,15 @@
 
 ## Navigation
 <p align="center">
-	<a href="#-About-API">About API</a>&nbsp;&nbsp;&nbsp; |
-	<a href="#-Link-Deploy-Backend">Link Deploy Backend</a>&nbsp;&nbsp;&nbsp; |
-	<a href="#-Development-Tools">Development Tools</a>&nbsp;&nbsp;&nbsp; |
-	<a href="#-Functionalities">Functionalities</a>&nbsp;&nbsp;&nbsp; |
-	<a href="#-Characteristics">Characteristics</a>&nbsp;&nbsp;&nbsp; |
-	<a href="#-Prerequisites">Prerequisites</a>&nbsp;&nbsp;&nbsp;  <br>|
-	<a href="#-Running-the-Back-End-(server)">Running the Back End (server)</a>&nbsp;&nbsp;&nbsp; |
-	<a href="#-To-Build-in-Insomnia">To Build in Insomnia</a>&nbsp;&nbsp;&nbsp; 
+	<a href="#-About-API">About API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Link-Deploy-Backend">Link Deploy Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Development-Tools">Development Tools</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Functionalities">Functionalities</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Characteristics">Characteristics</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Prerequisites">Prerequisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <br>
+	<a href="#-Running-the-Back-End">Running the Back End</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-To-Build-in-Insomnia">To Build in Insomnia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+	<a href="#-Important">Important</a>&nbsp;&nbsp;&nbsp; 
 </p>
 
 
@@ -51,13 +52,11 @@ ________________________________________________________________________________
 
 
 # 🖥️ About API
-
 <div>
 	🎲 It is important that you have app insomnia to convert and run tests in your application.<br>
 	🎲 This API works together with the Front End application and you can find it here: <br> 
 	
 - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
-
 </div>
 
 # 📌 Link Deploy Backend  
@@ -72,7 +71,6 @@ ________________________________________________________________________________
 - [x] [Git](https://git-scm.com)
 - [x] [Node.js](https://nodejs.org/en/)
 - [x] [Insomnia](https://insomnia.rest/download)
-
 </div>
 
 # ✅ Functionalities
@@ -239,9 +237,11 @@ GET /dishes/:id
 
 # ⚠️ Important 
 <div>
+	
 🎲 To run the Front End of this project you can find more information through this link:
 
 - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
+
 </div>
 
 ### Author
