@@ -242,7 +242,7 @@ GET /dishes/:id
 # ⚠️ Important 
 <div>
 	
-- [x] To run the Front End of this project you can find more information through this link:
+- [x] To run the Frontend of this project you can find more information through this link:
 
 - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
 	
