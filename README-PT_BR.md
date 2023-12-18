@@ -23,9 +23,10 @@ FoodExplorer é uma grande experiência que converge criativamente entre duas á
 	<a href="#-Ferramentas-de-Desenvolvimento">Ferramentas de Desenvolvimento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#-Funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#-Características">Características</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#-Pré-requisitos">Pré-requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <br>
-	<a href="#-Rodando o Back End (servidor)">Rodando o Back End (servidor)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#-Para montar no Insomnia">Para montar no Insomnia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+	<a href="#-Rodando-o-Back-End-(servidor)">Rodando o Back End (servidor)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Para-montar-no-Insomnia">Para montar no Insomnia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
 	<a href="#-Importante">Importante</a>&nbsp;&nbsp;&nbsp; 
 </p>
 
@@ -59,7 +60,7 @@ ________________________________________________________________________________
 👉🏼 https://backend-foodexplorer-api-6tji.onrender.com
 </div>
 
-# 🔧 Development Tools
+# 🔧 Ferramentas de Desenvolvimento
 <div>
 	
 - [x] [Git](https://git-scm.com)
@@ -70,6 +71,8 @@ ________________________________________________________________________________
 
 
 # ✅ Funcionalidades
+<div> 
+	
 - [x] Cadastro de administrador e usuários
 - [x] Cadastro, edição e exclusão de produtos (administrador)
 - [x] Consulta de produtos
@@ -78,11 +81,17 @@ ________________________________________________________________________________
 - [x] Consulta de pedidos
 - [x] Alteração do status dos pedidos (administrador)
 
+</div>
+
 
 # ⚙️ Características
+<div>
+	
 - [x] Responsividade
 - [x] Modo claro/escuro
 - [x] Modo administrativo/usuário
+
+</div>
 
 
 # 🚀 Tecnologias
@@ -98,12 +107,16 @@ ________________________________________________________________________________
 
 # 💻  Pré-requisitos
 Instalar em sua máquina as seguintes ferramentas:
+</div>
+
 - [x] [Git](https://git-scm.com)
 - [x] [Node.js](https://nodejs.org/en/)
 - [X] [Beekeper](https://www.beekeeperstudio.io/get)
 
 É importante ter um editor para trabalhar com o código, como por exemplo:
 - [x] [VSCode](https://code.visualstudio.com/)
+
+</div>
 
 
 
@@ -215,6 +228,7 @@ GET /dishes/:id
 - [x] Para executar o Front End deste projeto você pode encontrar mais informações através deste link:
 
 - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
+
 </div>
 
 
