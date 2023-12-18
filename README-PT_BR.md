@@ -59,6 +59,15 @@ ________________________________________________________________________________
 👉🏼 https://backend-foodexplorer-api-6tji.onrender.com
 </div>
 
+# 🔧 Development Tools
+<div>
+	
+- [x] [Git](https://git-scm.com)
+- [x] [Node.js](https://nodejs.org/en/)
+- [x] [Insomnia](https://insomnia.rest/download)
+
+</div>
+
 
 # ✅ Funcionalidades
 - [x] Cadastro de administrador e usuários
@@ -68,13 +77,13 @@ ________________________________________________________________________________
 - [x] Simulação de pagamento (usuário)
 - [x] Consulta de pedidos
 - [x] Alteração do status dos pedidos (administrador)
-<br /><br />
+
 
 # ⚙️ Características
 - [x] Responsividade
 - [x] Modo claro/escuro
 - [x] Modo administrativo/usuário
-<br /><br />
+
 
 # 🚀 Tecnologias
 ##   Projeto desenvolvido com as seguintes tecnologias
@@ -96,7 +105,7 @@ Instalar em sua máquina as seguintes ferramentas:
 É importante ter um editor para trabalhar com o código, como por exemplo:
 - [x] [VSCode](https://code.visualstudio.com/)
 
-<br />
+
 
 
 ### 🔄✅ 🎲 Rodando o Back End (servidor)
