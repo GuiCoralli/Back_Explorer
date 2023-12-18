@@ -1,7 +1,6 @@
 <h1 align="center">Food Explorer</h1> 
 
 
-
 <p align="center">
 	  <img alt="Project status" src="https://img.shields.io/badge/Status-Em construção-orange">
 	  <img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/GuiCoralli/backend-FoodExplorer">
@@ -14,20 +13,20 @@
 	Discover FoodExplorer, a web application that brings together the best of cooking and programming.
 	This final course project, from the  <a href="https://app.rocketseat.com.br">Rocketseat</a> educational platform, simulates a digital menu for a restaurant.
 	FoodExplorer is a great experience that creatively converges between two distinct areas such as gastronomy and technology.
+
 </p>
+
 
 ## Navigation
 <p align="center">
-  <a href="#-AbouTheProject">About the Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-LinkDeployBackend">Link Deploy Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-API">API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Functionalities">Functionalities</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Characteristics">Characteristics</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Technologies">Technologies</a><br>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Prerequisites">Prerequisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-RunningtheBackEnd(server)">Running the Back End (server)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Important">Important</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+[About API](#About-API) | [Link Deploy Backend](#Link-Deploy-Backend) | [Development Tools](#Development-Tools) | [Functionalities](#Functionalities) | [Characteristics](#Characteristics) | [Technologies](#Technologies) | [Prerequisites](#prerequisites) | [Running the Front End](#running-the-front-end) | [To build in Insomnia](#To-Build-in-Isomnia) | [Important](#important)
+
 </p>
+
+
+
+
 
 
  ## Translation 
@@ -47,11 +46,13 @@ ________________________________________________________________________________
 
 
 # 🖥️ About API
+
 <div>
 	🎲 It is important that you have app insomnia to convert and run tests in your application.<br>
 	🎲 This API works together with the Front End application and you can find it here: <br> 
 	
-- [x]  https://github.com/GuiCoralli/frontend-FoodExplorer	
+- [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
+
 </div>
 
 # 📌 Link Deploy Backend  
