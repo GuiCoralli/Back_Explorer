@@ -19,9 +19,14 @@
 
 ## Navigation
 <p align="center">
-
-[About API](#About-API) | [Link Deploy Backend](#Link-Deploy-Backend) | [Development Tools](#Development-Tools) | [Functionalities](#Functionalities) | [Characteristics](#Characteristics) | [Technologies](#Technologies) | [Prerequisites](#prerequisites) | [Running the Front End](#running-the-front-end) | [To build in Insomnia](#To-Build-in-Isomnia) | [Important](#important)
-
+	<a href="#-About-API">About API</a>&nbsp;&nbsp;&nbsp; |
+	<a href="#-Link-Deploy-Backend">Link Deploy Backend</a>&nbsp;&nbsp;&nbsp; |
+	<a href="#-Development-Tools">Development Tools</a>&nbsp;&nbsp;&nbsp; |
+	<a href="#-Functionalities">Functionalities</a>&nbsp;&nbsp;&nbsp; |
+	<a href="#-Characteristics">Characteristics</a>&nbsp;&nbsp;&nbsp; |
+	<a href="#-Prerequisites">Prerequisites</a>&nbsp;&nbsp;&nbsp;  <br>|
+	<a href="#-Running-the-Back-End-(server)">Running the Back End (server)</a>&nbsp;&nbsp;&nbsp; |
+	<a href="#-To-Build-in-Insomnia">To Build in Insomnia</a>&nbsp;&nbsp;&nbsp; 
 </p>
 
 
@@ -148,7 +153,7 @@ npm run dev
 Server will start on port:3333 - access <http://localhost:3333>
 
 
-# 🔨 To build in Insomnia
+# 🔨 To Build in Insomnia
 
 ## Creating a admin
 POST /admin
