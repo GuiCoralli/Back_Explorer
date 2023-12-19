@@ -123,7 +123,7 @@ Instalar em sua máquina as seguintes ferramentas:
 
 
 
-### 🔄✅ 🎲 Rodando o Backend (servidor)
+### 🔄✅ Rodando o Backend (servidor)
 
 Clone o repositório:
 ```
