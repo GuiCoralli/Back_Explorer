@@ -227,7 +227,7 @@ GET /dishes/:id
 ## ⚠️ Importante
 <div>
 	
-- [x] Para executar o Frontend deste projeto você pode encontrar mais informações através deste link:
+- [x] Para executar o Frontend deste projeto, você pode encontrar mais informações por meio do link:
 
 - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
 
