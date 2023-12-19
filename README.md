@@ -56,7 +56,7 @@ ________________________________________________________________________________
 <div>
 	
    - [x] It is important that you have app insomnia to convert and run tests in your application.<br>
-   - [x] This API works together with the Front End application and you can find it here: <br> 
+   - [x] This API works together with the Frontend application and you can find it here: <br> 
 	
    - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
       
