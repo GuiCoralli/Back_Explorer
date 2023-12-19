@@ -48,8 +48,8 @@ ________________________________________________________________________________
 # 🖥️ Sobre a API
 <div>	
 	
- - [x] É importante que você tenha o aplicativo insomnia converter e executar testes em sua aplicação.<br>
- - [x] Essa API funciona em conjunto com a aplicação Front End e você pode encontrá-la aqui:
+ - [x] É importante que você tenha o aplicativo insomnia para converter e executar testes em sua aplicação.<br>
+ - [x] Essa API funciona em conjunto com a aplicação Frontend e você pode encontrá-la aqui:
 
  - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer	
 
