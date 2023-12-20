@@ -56,7 +56,7 @@ ________________________________________________________________________________
 <div>
 	
    - [x] It is important that you have app insomnia to convert and run tests in your application.<br>
-   - [x] This API works together with the Front End application and you can find it here: <br> 
+   - [x] This API works together with the Frontend application and you can find it here: <br> 
 	
    - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
       
@@ -242,7 +242,7 @@ GET /dishes/:id
 # ⚠️ Important 
 <div>
 	
-- [x] To run the Front End of this project you can find more information through this link:
+- [x] To run the Frontend of this project you can find more information through this link:
 
 - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
 	
@@ -259,6 +259,3 @@ GET /dishes/:id
 
 
 💡 Created by Guilherme Coralli. 
-
-👋🏽 Get in touch!
-[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/guicoralli/)](https://www.linkedin.com/in/guicoralli/) 

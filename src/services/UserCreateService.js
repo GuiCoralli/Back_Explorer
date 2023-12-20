@@ -7,22 +7,22 @@ class UserCreateService {
     }
 
     async execute({ name, email, password }) {
-        try {
-            const checkUserExists = await this.userRepository.findByEmail(email);
-
-            if (checkUserExists) {
-                throw new AppError("Este e-mail já está em uso.");
-            };
-
-            const hashedPassword = await hash(password, 8);
-
-            await this.userRepository.create({ name, email, password: hashedPassword });
-
-            return { Mensagem: "Usuário cadastrado com sucesso!" };
-        } catch {
-            throw new AppError("Não foi possível cadastrar o usuário.", 500);
+        
+        const checkUserExists = await this.userRepository.findByEmail(email);
+        
+        if (checkUserExists) {
+            throw new AppError("Este e-mail já está em uso.");
         };
-    };
+
+        const hashedPassword = await hash(password, 8);
+
+        const userCreated = await this.userRepository.create({ name, email, password: hashedPassword });
+
+        return userCreated; /*{ Mensagem: "Usuário cadastrado com sucesso!" };
+                      } catch {
+                        throw new AppError("Não foi possível cadastrar o usuário.", 500);
+                        };*/
+    }
 }
 
 module.exports = UserCreateService;

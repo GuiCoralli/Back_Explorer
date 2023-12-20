@@ -9,6 +9,7 @@ const sqliteConnection = require("../database/sqlite");
 const userRepository = new UserRepository();
 
 class UsersController {
+    //Criando nome, email e senha de usuário
     async create(req, res) {
         const { name, email, password } = req.body;
 
@@ -18,7 +19,7 @@ class UsersController {
 
         return res.status(201).json(response);
     };
-
+    //Atualizando nome, email e senha do usuário
     async update(req, res) {
         const { name, email, password, old_password } = req.body;
         const user_id = req.user.id;
@@ -31,27 +32,29 @@ class UsersController {
         }
         
         const userWithUpdatedEmail = await database.get("SELECT * FROM users WHERE email = (?)", [email]);
-        
+        // SE o email que eu quero atualizar, está sendo utilizado por outra pessoa onde o [user.id] é diferente do meu,
+        // significa dizer que ele não é meu.
         if(userWithUpdatedEmail && userWithUpdatedEmail.id !== user.id) {
-            throw new AppError("Este e-mail já existe.");
+            throw new AppError("Este e-mail já foi cadastrado. Escolha outro e-mail.");
         }
         
         user.name = name ?? user.name; 
-        // Se existir conteúdo dentro de nome (name), SE NÃO existe o que vai ser utilizado será (user.name)
+        // SE existir conteúdo dentro de nome (name), SE NÃO existe o que vai ser utilizado será (user.name)
         user.email = email ?? user.email;
-        // Se existir conteúdo dentro de nome (email), SE NÃO existe o que vai ser utilizado será (user.email)
-
+        // SE existir conteúdo dentro de nome (email), SE NÃO existe o que vai ser utilizado será (user.email)
+        
+        // SE digitou a senha nova, porém não digitou a senha antiga, então joga a mensagem de erro
         if( password && !old_password) {
             throw new AppError ("Você precisa informar a SENHA ANTIGA para definir a NOVA SENHA");
         }
-
+        //SE tanto a senha, quanto a senha antiga foi informada, então compare a senha antiga com a senha do user
         if(password && old_password) {
             const checkOldPassword = await compare(old_password, user.password);
-
+            //SE a senha antiga não confere, jogue a mensagem de erro
             if(!checkOldPassword){
                 throw new AppError ("A senha antiga não confere.");
             }
-
+            //CASO a senha bata, criptografe a senha correta informada
             user.password = await hash(password, 8);
         }
             

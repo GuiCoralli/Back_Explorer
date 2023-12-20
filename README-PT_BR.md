@@ -11,9 +11,9 @@
 
 
 <p align="justify">
-Conheça o FoodExplorer, um aplicativo web que reúne o melhor da culinária e da programação.
-Este projeto de conclusão de curso, da plataforma educacional <a href="https://app.rocketseat.com.br">Rocketseat</a>, simula um cardápio digital para um restaurante.
-FoodExplorer é uma grande experiência que converge criativamente entre duas áreas distintas como a gastronomia e a tecnologia.
+	Descubra o Food Explorer, uma aplicação web que reúne o melhor da culinária e programação. 
+	Este projeto final de curso da plataforma educacional <a href="https://app.rocketseat.com.br">Rocketseat</a> simula um cardápio digital para um restaurante. 
+	O Food Explorer é uma ótima experiência que converge de maneira criativa duas áreas distintas, como a gastronomia e a tecnologia.
 </p>
 
 ## Navigation
@@ -41,15 +41,16 @@ FoodExplorer é uma grande experiência que converge criativamente entre duas á
   <a href="https://github.com/GuiCoralli/backend-FoodExplorer/blob/main/README.md"> Inglês
   </a>
   </p>
-________________________________________________________________________________________________________________________________________________________
 
+
+_____________________________________________________________________________________
 
 
 # 🖥️ Sobre a API
 <div>	
 	
- - [x] É importante que você tenha o aplicativo insomnia converter e executar testes em sua aplicação.<br>
- - [x] Essa API funciona em conjunto com a aplicação Front End e você pode encontrá-la aqui:
+ - [x] É importante que você tenha o aplicativo insomnia para converter e executar testes em sua aplicação.<br>
+ - [x] Essa API funciona em conjunto com a aplicação Frontend e você pode encontrá-la aqui:
 
  - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer	
 
@@ -123,7 +124,7 @@ Instalar em sua máquina as seguintes ferramentas:
 
 
 
-### 🔄✅ 🎲 Rodando o Backend (servidor)
+### 🔄✅ Rodando o Backend (servidor)
 
 Clone o repositório:
 ```
@@ -227,7 +228,7 @@ GET /dishes/:id
 ## ⚠️ Importante
 <div>
 	
-- [x] Para executar o Frontend deste projeto você pode encontrar mais informações através deste link:
+- [x] Para executar o Frontend deste projeto, você pode encontrar mais informações por meio do link:
 
 - [x]  https://github.com/GuiCoralli/frontend-FoodExplorer
 
