@@ -259,3 +259,6 @@ GET /dishes/:id
 
 
 💡 Created by Guilherme Coralli. 
+
+👋🏽 Get in touch!
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/guicoralli/)](https://www.linkedin.com/in/guicoralli/)
