@@ -12,7 +12,7 @@ class UserAvatarUpdateService {
         const user = await this.userAvatarRepository.findById(id);
 
         if (!user) {
-            throw new AppError("Somente usuários autenticados podem mudar o avatar", 404);
+            throw new AppError("Apenas usuários com permissão podem mudar o avatar", 404);
         };
 
         if (user.avatar) {

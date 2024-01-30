@@ -2,7 +2,7 @@ const { verify } = require("jsonwebtoken");
 const AppError = require("../utils/AppError");
 const authConfig = require("../configs/auth");
 
-function ensureAuthenticated(req, res, next) {
+function ensureAuthenticated(req, _res, next) {
     const authHeader = req.headers.authorization;
 
     if (!authHeader) {
@@ -12,11 +12,11 @@ function ensureAuthenticated(req, res, next) {
     const [, token] = authHeader.split(" ");
 
     try {
-        const { sub: user_id, isAdmin } = verify(token, authConfig.jwt.secret);
+        const { sub: user_id, isAdminAccess } = verify(token, authConfig.jwt.secret);
 
         req.user = {
             id: Number(user_id),
-            isAdmin
+            isAdminAccess
         };
 
         return next();

@@ -1,19 +1,19 @@
 const sqliteConnection = require("../../sqlite");
 const createUsers = require("./createUsers");
-const createOrders = require("./createOrders");
-const createDishes = require("./createDishes");
+const createRequestOrders = require("./createRequestOrders");
+const createPlates = require("./createPlates");
 const createIngredients = require("./createIngredients");
-const createOrderItems = require("./createOrderItems");
-const createFavorites = require("./createFavorites");
+const createRequestOrderItems = require("./createRequestOrderItems");
+const createPreferences = require("./createPreferences");
 
 async function migrationsRun() {
     const schemas = [
         createUsers,
-        createOrders,
-        createDishes,
+        createRequestOrders,
+        createPlates,
         createIngredients,
-        createOrderItems,
-        createFavorites,
+        createRequestOrderItems,
+        createPreferences,
     ].join('');
 
     sqliteConnection()

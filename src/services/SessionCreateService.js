@@ -22,12 +22,12 @@ class SessionCreateService {
         };
 
         const { secret, expiresIn } = authConfig.jwt;
-        const token = sign({ isAdmin: user.is_admin }, secret, {
+        const token = sign({ isAdminAccess: user.is_adminaccess }, secret, {
             subject: String(user.id),
             expiresIn
         });
 
-        return { user, token, isAdmin: user.is_admin };
+        return { user, token, isAdminAccess: user.is_adminaccess };
     };
 }
 

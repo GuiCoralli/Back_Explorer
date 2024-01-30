@@ -3,7 +3,7 @@ exports.up =knex.schema.createTable("users", table =>{
     table.text('name').notNullable()
     table.text('email').notNullable()
     table.text('password').notNullable()
-    table.boolean('is_admin').notNullable()
+    table.boolean('is_admin_access').notNullable()
     
     table.timestamp('created_at').defaultTo(knex.fn.now())
     table.timestamp('updated_at').defaultTo(knex.fn.now())
