@@ -6,7 +6,7 @@ const adminAccessRoutes = Router();
 
 const adminAccessController = new AdminAccessController();
 
-adminAccessRoutes.post("/", adminAccessController.create);
-adminAccessRoutes.get("/", adminAccessController.show);
+adminAccessRoutes.post("/adminaccess", adminAccessController.create);
+adminAccessRoutes.get("/adminaccess", adminAccessController.show);
 
 module.exports = adminAccessRoutes;

@@ -5,20 +5,20 @@ const AdminAccessShowService = require("../services/AdminAccessShowService");
 const adminAccessRepository = new AdminAccessRepository();
 
 class AdminAccessController {
-    async create(req, res) {
-        const { name, email, password } = req.body;
+    async create(_req, res) {
+        const { name, email, password, adminaccess } = _req.body;
 
         const adminAccessCreateService = new AdminAccessCreateService(adminAccessRepository);
 
-        const response = await adminAccessCreateService.execute({ name, email, password });
+        const response = await adminAccessCreateService.execute({ name, email, password, adminaccess });
 
         return res.status(201).json(response);
     };
 
-    async show(req, res) {
+    async show(_req, res) {
         const adminAccessShowService = new AdminAccessShowService(adminAccessRepository);
 
-        const isAdminAccess = await adminAccessShowService.execute();
+        const isAdminAccess = await adminAccessShowService.execute(isAdminAccess);
 
         return res.status(201).json(isAdminAccess);
     };
