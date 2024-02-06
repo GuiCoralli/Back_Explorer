@@ -5,7 +5,7 @@ const createUsers = `
         email VARCHAR,
         password VARCHAR,
         avatar VARCHAR NULL,
-        is_admin_access BOOLEAN DEFAULT false,
+        is_adminaccess BOOLEAN DEFAULT false,
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
