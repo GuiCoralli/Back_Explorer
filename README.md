@@ -22,12 +22,12 @@
 	<a href="#-About-API">🖥️About API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#-Link-Deploy-Backend">📌Link Deploy Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#-Development-Tools">🔧Development Tools</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#-Functionalities">✅Functionalities</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Functionalities">✅Functionalities</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<br>
 	<a href="#-Characteristics">⚙️Characteristics</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<br>
 	<a href="#-Technologies">🚀Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#-Dependencies">📖Dependencies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#-Prerequisites">💻Prerequisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-	<a href="#-Running-the-Backend">🔄✅Running the Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<br>
+	<a href="#-Running-the-Backend">🔄✅Running the Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="#-To-Build-in-Insomnia">🔨To Build in Insomnia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
 	<a href="#-Important">⚠️Important</a>&nbsp;&nbsp;&nbsp; 
 </p>
@@ -133,9 +133,9 @@ ________________________________________________________________________________
 
 
 # 💻 Prerequisites
+  Install the following tools on your machine
 <div>
-Install the following tools on your machine
-	
+
 - [x] [Git](https://git-scm.com)
 - [x] [Node.js](https://nodejs.org/en/)
 - [X] [Insomnia](https://insomnia.rest/download)
