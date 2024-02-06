@@ -19,16 +19,17 @@
 
 ## Navigation
 <p align="center">
-	<a href="#-About-API">About API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#-Link-Deploy-Backend">Link Deploy Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#-Development-Tools">Development Tools</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#-Functionalities">Functionalities</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#-Characteristics">Characteristics</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<br>
-	<a href="#-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#-Prerequisites">Prerequisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-	<a href="#-Running-the-Backend">Running the Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="#-To-Build-in-Insomnia">To Build in Insomnia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-	<a href="#-Important">Important</a>&nbsp;&nbsp;&nbsp; 
+	<a href="#-About-API">🖥️About API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Link-Deploy-Backend">📌Link Deploy Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Development-Tools">🔧Development Tools</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Functionalities">✅Functionalities</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Characteristics">⚙️Characteristics</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<br>
+	<a href="#-Technologies">🚀Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Dependencies">📖Dependencies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-Prerequisites">💻Prerequisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+	<a href="#-Running-the-Backend">🔄✅Running the Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="#-To-Build-in-Insomnia">🔨To Build in Insomnia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+	<a href="#-Important">⚠️Important</a>&nbsp;&nbsp;&nbsp; 
 </p>
 
 
@@ -108,8 +109,28 @@ ________________________________________________________________________________
 - [x] [Javascript](https://developer.mozilla.org/en-US/docs/Web/Javascript) <img align="center" alt="Gui-JAVASCRIPT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
 - [x] [Node.Js](https://nodejs.org/api/documentation.html) <img align="center" alt="Gui-NODEJS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
 - [x] [REACT](https://developer.mozilla.org/pt-BR/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started) <img align="center" alt="Gui-REACT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
- 
+
+</div>
+
+
+# 📖 Dependencies 
+ Project was developed and used the following libraries:
+<div>
+	
+- [x] [@axios](https://axios-http.com/) 
+- [x] [@bcryptjs](https://www.npmjs.com/package/bcryptjs)
+- [x] [@cors](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS) 
+- [x] [@dotenv](https://www.npmjs.com/package/dotenv) 
+- [x] [@express](https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Express_Nodejs) 
+- [x] [@jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken?activeTab=readme) 
+- [x] [@jest](https://www.npmjs.com/package/jwt-decode) 
+- [x] [@multer](https://www.npmjs.com/package/multer) 
+- [x] [@pm2](https://www.npmjs.com/package/pm2) 
+- [x] [@sqlite](https://www.npmjs.com/package/sqlite) 
+- [x] [@sqlite3](https://www.npmjs.com/package/sqlite3) 
+
  </div>
+
 
 # 💻 Prerequisites
 <div>
