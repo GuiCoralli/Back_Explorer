@@ -6,7 +6,7 @@ const adminAccessRepository = new AdminAccessRepository();
 
 class AdminAccessController {
     async create(_req, res) {
-        const { name, email, password, } = _req.body;
+        const { name, email, password } = _req.body;
 
         const adminAccessCreateService = new AdminAccessCreateService(adminAccessRepository);
 
@@ -18,7 +18,7 @@ class AdminAccessController {
     async show(_req, res) {
         const adminAccessShowService = new AdminAccessShowService(adminAccessRepository);
 
-        const isAdminAccess = await adminAccessShowService.execute(isAdminAccess);
+        const isAdminAccess = await adminAccessShowService.execute();
 
         return res.status(201).json(isAdminAccess);
     };
