@@ -12,7 +12,7 @@ const requestpaymentRouter = require("./requestpayment.routes");
 const routes = Router();
 
 routes.use("/users", usersRouter);
-routes.use("/adminaccess", adminaccessRouter);
+routes.use("/", adminaccessRouter);
 routes.use("/plates", platesRouter);
 routes.use("/requestorders", requestordersRouter);
 routes.use("/preferences", preferencesRouter);

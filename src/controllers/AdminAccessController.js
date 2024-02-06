@@ -6,11 +6,11 @@ const adminAccessRepository = new AdminAccessRepository();
 
 class AdminAccessController {
     async create(_req, res) {
-        const { name, email, password, adminaccess } = _req.body;
+        const { name, email, password, } = _req.body;
 
         const adminAccessCreateService = new AdminAccessCreateService(adminAccessRepository);
 
-        const response = await adminAccessCreateService.execute({ name, email, password, adminaccess });
+        const response = await adminAccessCreateService.execute({ name, email, password });
 
         return res.status(201).json(response);
     };
