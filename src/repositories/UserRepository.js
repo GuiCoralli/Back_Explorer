@@ -1,39 +1,59 @@
 const knex = require("../database/knex");
 
 class UserRepository {
+    async create({name, email, password, is_admin}) {
+    await knex("users")
+    .insert
+    ({name, email, password, is_admin});
+    }
+    
     async findByEmail(email) {
-        const user = await knex("users").where({ email }).first();
+        const userInfos = await knex("users").where({email}).first();
+        return userInfos;
+    }
+    
+    
+    /*    
+      const database = await sqliteConnection();
+      const user = await database.get(
+        "SELECT * FROM users WHERE id =(?)", 
+        [email]
+      );
 
-        return user;
-    };
-
+      return user;
+     
+    
     async create({ name, email, password }) {
-        const userId = await knex("users").insert({
-            name,
-            email,
-            password,
-            created_at: new Date().toLocaleString("en-US", { hour12: false }),
-            updated_at: new Date().toLocaleString("en-US", { hour12: false })
-        });
+        const database = await sqliteConnection();
+        
+        const user_id = await database.run(
+            "INSERT INTO users (name, email, password) VALUES (?, ?, ?)",
+            [name, email, password]
+        );
 
-        return { id: userId };
-    };
-
+        return { id: user_id };
+    }
+    */  
+    
     async findById(id) {
-        const user = await knex("users").where({ id }).first();
+        const userInfos = await knex("users").where({email}).first();
+        return userInfos;
+    }
 
+    /*    const database = await sqliteConnection();
+        const user = await database.get(
+            "SELECT * FROM users WHERE id =(?)", 
+            [id]
+        );
+        
         return user;
-    };
+    };*/
 
-    async update({ name, email, password, created_at, id }) {
-        await knex("users").where({ id }).update({
-            name,
-            email,
-            password,
-            created_at,
-            updated_at: new Date().toLocaleString("en-US", { hour12: false })
-        });
-    };
+    async update( infosUpdate ) {
+        await knex("users").update( infosUpdate ).where({ id: infosUpdate.id });
+
+        return userInfos;
+    }
 }
 
 module.exports = UserRepository;

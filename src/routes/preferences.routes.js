@@ -1,14 +1,17 @@
 const { Router } = require("express");
+const PreferencesController = require("../controllers/PreferencesControllers");
 
-const PreferencesController = require("../controllers/PreferencesController");
+const {ensureAuthenticated, ensureIsNotAdmin, ensuresFoodsAreRegistered } = require("../middlewares/ensureAuthenticated");
 
 const preferencesRoutes = Router();
 
 const preferencesController = new PreferencesController();
 
-preferencesRoutes.post("/", preferencesController.create);
-preferencesRoutes.get("/:user_id", preferencesController.index);
-preferencesRoutes.delete("/:id", preferencesController.delete);
-preferencesRoutes.get("/", preferencesController.show);
+preferencesRoutes.use(ensureAuthenticated);
 
-module.exports = preferencesRoutes; 
+preferencesRoutes.post("/:food_id", ensureIsNotAdmin, ensuresFoodsAreRegistered, preferencesController.create);
+preferencesRoutes.get("/", preferencesController.index);
+preferencesRoutes.delete("/:food_id", ensureIsNotAdmin, preferencesController.delete);
+
+
+module.exports = preferencesRoutes;

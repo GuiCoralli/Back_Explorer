@@ -1,18 +1,19 @@
-const SessionRepository = require("../repositories/SessionRepository");
-const SessionCreateService = require("../services/SessionCreateService");
+const UserRepository = require("../repositories/UserRepository");
+const SessionCreateService = require("../services/sessions/SessionCreateService")
 
-class SessionsController {
-    async create(req, res) {
-        const { email, password } = req.body;
+class SessionsControllers {
+  async create(request, response) {
+    const { email, password } = request.body;
 
-        const sessionRepository = new SessionRepository();
+    const userRepository = new UserRepository();
+    const sessionCreateService = new SessionCreateService(userRepository);
 
-        const sessionCreateService = new SessionCreateService(sessionRepository);
+    //const result = await sessionCreateService.execute({ email, password });
 
-        const { user, token, isAdmin } = await sessionCreateService.execute({ email, password });
+    const { user, token, isAdmin } = await sessionCreateService.execute({ email, password });
 
-        return res.status(200).json({ user, token, isAdmin });
-    };
+    return response.status(200).json({ user, token, isAdmin });
+  };
 }
 
-module.exports = SessionsController;
+module.exports = SessionsControllers;

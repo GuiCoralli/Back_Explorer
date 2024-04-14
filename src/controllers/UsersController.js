@@ -1,48 +1,62 @@
 const { hash, compare} = require ("bcryptjs");
 const AppError = require("../utils/AppError");
-
-
-const UserRepository = require("../repositories/UserRepository");
-const UserCreateService = require("../services/UserCreateService");
 const sqliteConnection = require("../database/sqlite");
 
-const userRepository = new UserRepository();
+const UserRepository = require("../repositories/UserRepository");
+const UserCreateService = require("../services/users/UserCreateService");
+const UserUpdateService = require("../services/users/UserUpdateService");
+const UserAvatarUpdateService = require("../services/users/UserAvatarUpdateService");
+
 
 class UsersController {
     //Criando nome, email e senha de usuário
-    async create(req, res) {
-        const { name, email, password } = req.body;
-
-        const userCreateService = new UserCreateService(userRepository);
-
-        const response = await userCreateService.execute({ name, email, password });
-
-        return res.status(201).json(response);
-    };
-    //Atualizando nome, email e senha do usuário
-    async update(req, res) {
-        const { name, email, password, old_password } = req.body;
-        const user_id = req.user.id;
+    async create (request, response) {
+        const { name, email, password } = request.body;
         
-        const database = await sqliteConnection();
+        const userRepository = new UserRepository();
+        const userCreateService = new UserCreateService(userRepository);
+        
+        await userCreateService.execute({ name, email, password });
+
+        return response.status(201).json();  
+    };
+
+    //Atualizando nome, email e senha do usuário
+    async update (request, response) {
+        const { name, email, password, old_password } = request.body;
+        const user_id = request.user.id
+
+        const userRepository = new UserRepository();
+        const userUpdateService = new UserUpdateService(userRepository);
+
+        await userUpdateService.execute({ id: user_id, name, email, password, old_password });
+        
+        return response.status(201).json();
+    }
+}
+
+module.exports = UsersController;
+
+    
+        /*
         const user = await database.get("SELECT * FROM users WHERE id =(?)", [user_id]);
         
         if(!user) {
-            throw new AppError("Usuário não encontrado");
+            throw new AppError("Usuário não foi encontrado");
         }
         
         const userWithUpdatedEmail = await database.get("SELECT * FROM users WHERE email = (?)", [email]);
         // SE o email que eu quero atualizar, está sendo utilizado por outra pessoa onde o [user.id] é diferente do meu,
         // significa dizer que ele não é meu.
         if(userWithUpdatedEmail && userWithUpdatedEmail.id !== user.id) {
-            throw new AppError("Este e-mail já foi cadastrado. Escolha outro e-mail.");
+            throw new AppError("Este e-mail já existe.");
         }
         
         user.name = name ?? user.name; 
-        // SE existir conteúdo dentro de nome (name), SE NÃO existe o que vai ser utilizado será (user.name)
+// Se existir conteúdo dentro de nome (name), SE NÃO existir o que vai ser utilizado será (user.name)
         user.email = email ?? user.email;
-        // SE existir conteúdo dentro de nome (email), SE NÃO existe o que vai ser utilizado será (user.email)
-        
+// Se existir conteúdo dentro de nome (email), SE NÃO existir o que vai ser utilizado será (user.email)
+
         // SE digitou a senha nova, porém não digitou a senha antiga, então joga a mensagem de erro
         if( password && !old_password) {
             throw new AppError ("Você precisa informar a SENHA ANTIGA para definir a NOVA SENHA");
@@ -64,13 +78,10 @@ class UsersController {
         email = ?,
         password = ?,
         updated_at = DATETIME('now')
-        WHERE id =? `,
+        WHERE id = ? `,
         [user.name, user.email, user.password, user_id]
         );
 
         return response.json();
     
-    }
-};
-
-module.exports = UsersController;
+    }*/
